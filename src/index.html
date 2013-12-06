@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="exiview" ng-csp>
+<head>
+  <meta charset="utf-8">
+  <title>Hello World</title>
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="ng-grid/ng-grid.css" rel="stylesheet">
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="angular.js"></script>
+  <script type="text/javascript" src="ng-grid/ng-grid.js"></script>
+  <script type="text/javascript" src="exif/binaryajax.js"></script>
+  <script type="text/javascript" src="exif/exif.js"></script>
+  <script type="text/javascript" src="ui.js"></script>
+</head>
+<body ng-controller="testctrl">
+  <img class="icon" src="img/image.svg" ng-click="openFile()"><br>
+  <div class="gridStyle" ng-grid="gridOpts"></div>
+</body>
+</html>

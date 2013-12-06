@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Exiview",
+  "version": "0",
+  "minimum_chrome_version": "23",
+  "icons": {
+    "128": "img/exif128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions": ["fileSystem"]
+}

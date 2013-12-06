@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-image: url("../exif128.png"), -webkit-radial-gradient(center, ellipse cover,#FFFFFF 0%,#FAFAFA 50%,#F5F5F5 60%,#BEBEBE 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  position: absolute;
+  height: 36px;
+  padding: 2px;
+}
+
+.gridStyle {
+  border: 1px solid rgb(212,212,212);
+  position: absolute;
+  width: 100%; 
+  top: 40px;
+  bottom: 5px;
+}

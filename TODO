@@ -1,0 +1,6 @@
+Read in file metadata
+Support other image types
+Support xmp sidecars (explicit open required)
+Separate different metadata sources out into tabs
+Image preview?
+Translation tables for tag names
